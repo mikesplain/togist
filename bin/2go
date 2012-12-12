@@ -1,0 +1,8 @@
+require 'togist'
+
+@open=true
+
+run2g
+
+
+

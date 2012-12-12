@@ -1,0 +1,5 @@
+require 'togist'
+
+@open = true
+
+run2gpub
