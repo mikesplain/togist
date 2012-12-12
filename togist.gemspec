@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.homepage      = "http://github.com/mikesplain/togist"
 
   gem.add_development_dependency "rake"
-  gem.add_development_dependency "gist"
+  gem.add_dependency "gist"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
