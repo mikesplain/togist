@@ -1,4 +1,5 @@
 require "togist/version"
+require "Clipboard"
 
 module Togist
 
@@ -51,7 +52,7 @@ def checkoutput(out)
     puts "There was an unknown error. Are you sure you can connect to github? \n\n"
     help
   else
-    final = `echo '#{out}' | pbcopy`
+    Clipboard.copy(out)
     puts "Gist: #{out} (copied to clipboard)"
     `open #{out}` if @open
   end
