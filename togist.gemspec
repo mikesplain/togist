@@ -8,12 +8,13 @@ Gem::Specification.new do |gem|
   gem.version       = Togist::VERSION
   gem.authors       = ["Mike Splain"]
   gem.email         = ["mike.splain@gmail.com"]
-  gem.description   = %q{A simple wrapper to send something to gist & copy to clipboard on mac}
-  gem.summary       = %q{A simple wrapper to send something to gist & copy to clipboard on mac}
-  gem.homepage      = "http://github.com/mikesplain/togist"
+  gem.description   = %q{A simple wrapper to send something to gist & copy to clipboard}
+  gem.summary       = %q{A simple wrapper to send something to gist & copy to clipboard}
+  gem.homepage      = "http://mikesplain.github.com/togist/"
 
   gem.add_development_dependency "rake"
   gem.add_dependency "gist"
+  gem.add_dependency "clipboard"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
