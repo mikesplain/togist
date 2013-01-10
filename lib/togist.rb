@@ -25,7 +25,7 @@ def help
   puts "  2g : Uploads to private gist and copies gist url to mac clipboard"
   puts "  2gpub : Same as above except public\n\n"
   puts "Tips:"
-  puts "  Add an 'o' to the end of a shortcut to make it open your browser to the gist"
+  puts "  Add an 'o' to the end of a shortcut to make it open your browser to the gist\n\n"
   puts "  e.g.:"
   puts "    echo 'foo' | 2go # Will open to the private gist url"
   puts "    echo 'foo' | 2gpubo # Will open to the public gist url"
