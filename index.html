@@ -18,7 +18,7 @@
         <h1>ToGist</h1>
         <p>A simple app that will send command line output into a private or public gist, copy the url to your clipboard, and (if requested) open that url in your browser.</p>
 
-        <p class="view"><a href="https://github.com/mikesplain/togist">View the Project on GitHub</a></p>
+        <p class="view"><a href="https://github.com/mikesplain/togist">View the Project on GitHub <small>mikesplain/togist</small></a></p>
 
 
         <ul>
@@ -28,8 +28,18 @@
         </ul>
       </header>
       <section>
+        <h1>
+<a id="togist" class="anchor" href="#togist" aria-hidden="true"><span class="octicon octicon-link"></span></a>ToGist</h1>
 
-<h2>Installation</h2>
+<p>A simple app that will send command line output into a private or public gist, copy the url to your clipboard, and (if requested) open that url in your browser.</p>
+
+<h2>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Requirements</h2>
+
+<p>This gem is designed for use on Mac OSX.</p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
 
 <p>Run this command in your terminal:</p>
 
@@ -41,30 +51,35 @@
 <pre><code>$ rake install togist
 </code></pre>
 
-<h3>Rbenv</h3>
+<h3>
+<a id="rbenv" class="anchor" href="#rbenv" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rbenv</h3>
 
 <p>You'll probably need to run:
     rbenv rehash</p>
 
-<h2>Usage</h2>
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
 
 <p>Output files or commands and pipe them into either shortcut:
     echo 'foo' | 2g
     cat foo.rb | 2g</p>
 
-<h3>Shortcuts:</h3>
+<h3>
+<a id="shortcuts" class="anchor" href="#shortcuts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Shortcuts:</h3>
 
 <pre><code>2g : Uploads to private gist and copies gist url to mac clipboard
 2gpub : Same as above except public
 </code></pre>
 
-<h3>Tips:</h3>
+<h3>
+<a id="tips" class="anchor" href="#tips" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tips:</h3>
 
 <p>Add an 'o' to the end of a shortcut to make it open your browser to the gist
-    <pre><code>echo 'foo' | 2go # Will open to the private gist url
-echo 'foo' | 2gpubo # Will open to the public gist url</code></pre></p>
+    echo 'foo' | 2go # Will open to the private gist url
+    echo 'foo' | 2gpubo # Will open to the public gist url</p>
 
-<h2>Contributing</h2>
+<h2>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing</h2>
 
 <ol>
 <li>Fork it</li>
